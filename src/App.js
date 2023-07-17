@@ -3,13 +3,15 @@ import Header from "./Header";
 import Footer from "./Footer";
 import Nav from "./Nav";
 import Main from "./Main";
+import Body from "./Body";
 
 function App(){
   return (
     <>
      <Header />
-     <Nav />
      <Main />
+     <Nav />
+     <Body />
      <Footer />
     </>
   );
